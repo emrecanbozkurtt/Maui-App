@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="InsuranceApp.MVVM.ViewModel.KaskoPage"
+             Title="KaskoPage">
+
+   
+    <StackLayout VerticalOptions="FillAndExpand" Padding="20">
+        <Label Text="Profilim" FontAttributes="Bold" FontSize="20"  HorizontalOptions="Start" TextColor="White"/>
+        <Label Text="Poliçe Sahibi: {Binding PolicyOwner}" FontSize="18" />
+        <Label Text="Poliçe İsmi: {Binding PolicyName}" FontSize="18" />
+        <Label Text="Poliçe Numarası: {Binding PolicyNumber}" FontSize="18" />
+        <Label Text="Tanzim Tarihi: {Binding TanzimTarihi}" FontSize="18" />
+        <Label Text="Vade Tarihi: {Binding VadeTarihi}" FontSize="18" />
+        <Label Text="Prim Tutarı: {Binding PrimTutari}" FontSize="18" />
+        <Label Text="Teminatlar: {Binding Teminatlar}" FontSize="18" />
+    </StackLayout>
+</ContentPage>
