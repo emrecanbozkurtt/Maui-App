@@ -10,36 +10,64 @@ using System;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using Microsoft.Extensions.DependencyInjection;
-
+using Newtonsoft.Json.Linq;
+using System.Net.Mime;
 
 namespace InsuranceApp.Services
 {
-    public class LoginService : ILoginRepository
+    namespace InsuranceApp.Services
     {
-        public async Task<User> Login(string Username, string Password)
+        public class LoginService : ILoginRepository
         {
-            {
-                var user = new List<User>();
-                var client = new HttpClient();
 
-                string url = "https://localhost:7206/api/users" + Username + "/" + Password;
-                client.BaseAddress = new Uri(url);
-                HttpResponseMessage response = await client.GetAsync("");
-                if (response.IsSuccessStatusCode)
+            public async Task<User> Login(string Username, string Password)
+            {
+
+                HttpClient client = new HttpClient();
+
+                string url = GlobalVariables.serverAdress + "/api/users/auth";
+
+                string requestBodyContent = "{\"username\":\"" + Username + "\", \"password\":\"" + Password + "\"}";
+
+                HttpResponseMessage response = null;
+
+                var request = new HttpRequestMessage
                 {
-                    string content = response.Content.ReadAsStringAsync().Result;
-                    user = JsonConvert.DeserializeObject<List<User>>(content);
-                    return await Task.FromResult(user.FirstOrDefault());
-                }
-                else
+
+                    Method = HttpMethod.Post,
+                    RequestUri = new Uri(url),
+                    Content = new StringContent(requestBodyContent, Encoding.UTF8, MediaTypeNames.Application.Json)
+                };
+
+                response = await client.SendAsync(request);
+
+                if (!response.IsSuccessStatusCode)
                 {
+                    Console.WriteLine("Status code error");
                     return null;
                 }
+
+                string content = await response.Content.ReadAsStringAsync();
+                string token = JObject.Parse(content).Value<string>("token");
+
+                if (token == null)
+                {
+                    Console.WriteLine("Unable to retrieve token");
+                    return null;
+                }
+
+                return await Task.FromResult(
+                    new User
+                    {
+                        Username = Username,
+                        Password = Password,
+                        Token = token
+                    }
+                );
+
             }
+
         }
 
-
-
     }
-
 }

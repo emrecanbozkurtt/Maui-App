@@ -8,93 +8,93 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = InsuranceApp
-build_property.ProjectDir = C:\Users\emrec\source\repos\InsuranceApp\InsuranceApp\
+build_property.ProjectDir = C:\Users\emrec\OneDrive\Belgeler\GitHub\Maui-App\
 
-[C:/Users/emrec/source/repos/InsuranceApp/InsuranceApp/App.xaml]
+[C:/Users/emrec/OneDrive/Belgeler/GitHub/Maui-App/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = InsuranceApp.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/emrec/source/repos/InsuranceApp/InsuranceApp/AppShell.xaml]
+[C:/Users/emrec/OneDrive/Belgeler/GitHub/Maui-App/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = InsuranceApp.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/emrec/source/repos/InsuranceApp/InsuranceApp/MainPage.xaml]
+[C:/Users/emrec/OneDrive/Belgeler/GitHub/Maui-App/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = InsuranceApp.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/emrec/source/repos/InsuranceApp/InsuranceApp/MVVM/ViewModel/DaskPage.xaml]
+[C:/Users/emrec/OneDrive/Belgeler/GitHub/Maui-App/MVVM/ViewModel/DaskPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = InsuranceApp.MVVM.ViewModel.DaskPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MVVM\ViewModel\DaskPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\ViewModel\DaskPage.xaml
 
-[C:/Users/emrec/source/repos/InsuranceApp/InsuranceApp/MVVM/ViewModel/EmeklilikPage.xaml]
+[C:/Users/emrec/OneDrive/Belgeler/GitHub/Maui-App/MVVM/ViewModel/EmeklilikPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = InsuranceApp.MVVM.ViewModel.EmeklilikPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MVVM\ViewModel\EmeklilikPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\ViewModel\EmeklilikPage.xaml
 
-[C:/Users/emrec/source/repos/InsuranceApp/InsuranceApp/MVVM/ViewModel/FerdiKazaPage.xaml]
+[C:/Users/emrec/OneDrive/Belgeler/GitHub/Maui-App/MVVM/ViewModel/FerdiKazaPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = InsuranceApp.MVVM.ViewModel.FerdiKazaPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MVVM\ViewModel\FerdiKazaPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\ViewModel\FerdiKazaPage.xaml
 
-[C:/Users/emrec/source/repos/InsuranceApp/InsuranceApp/MVVM/ViewModel/HayatPage.xaml]
+[C:/Users/emrec/OneDrive/Belgeler/GitHub/Maui-App/MVVM/ViewModel/HayatPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = InsuranceApp.MVVM.ViewModel.HayatPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MVVM\ViewModel\HayatPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\ViewModel\HayatPage.xaml
 
-[C:/Users/emrec/source/repos/InsuranceApp/InsuranceApp/MVVM/ViewModel/KaskoPage.xaml]
+[C:/Users/emrec/OneDrive/Belgeler/GitHub/Maui-App/MVVM/ViewModel/KaskoPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = InsuranceApp.MVVM.ViewModel.KaskoPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MVVM\ViewModel\KaskoPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\ViewModel\KaskoPage.xaml
 
-[C:/Users/emrec/source/repos/InsuranceApp/InsuranceApp/MVVM/ViewModel/KonutPage.xaml]
+[C:/Users/emrec/OneDrive/Belgeler/GitHub/Maui-App/MVVM/ViewModel/KonutPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = InsuranceApp.MVVM.ViewModel.KonutPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MVVM\ViewModel\KonutPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\ViewModel\KonutPage.xaml
 
-[C:/Users/emrec/source/repos/InsuranceApp/InsuranceApp/MVVM/ViewModel/SaglikPage.xaml]
+[C:/Users/emrec/OneDrive/Belgeler/GitHub/Maui-App/MVVM/ViewModel/SaglikPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = InsuranceApp.MVVM.ViewModel.SaglikPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MVVM\ViewModel\SaglikPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\ViewModel\SaglikPage.xaml
 
-[C:/Users/emrec/source/repos/InsuranceApp/InsuranceApp/MVVM/ViewModel/TrafikPage.xaml]
+[C:/Users/emrec/OneDrive/Belgeler/GitHub/Maui-App/MVVM/ViewModel/TrafikPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = InsuranceApp.MVVM.ViewModel.TrafikPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MVVM\ViewModel\TrafikPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\ViewModel\TrafikPage.xaml
 
-[C:/Users/emrec/source/repos/InsuranceApp/InsuranceApp/MVVM/ViewModel/UserEntryViewModel.xaml]
+[C:/Users/emrec/OneDrive/Belgeler/GitHub/Maui-App/MVVM/ViewModel/UserEntryViewModel.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = InsuranceApp.MVVM.ViewModel.UserEntryViewModel.xaml
 build_metadata.AdditionalFiles.TargetPath = MVVM\ViewModel\UserEntryViewModel.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\ViewModel\UserEntryViewModel.xaml
 
-[C:/Users/emrec/source/repos/InsuranceApp/InsuranceApp/MVVM/ViewModel/UserProfileViewModel.xaml]
+[C:/Users/emrec/OneDrive/Belgeler/GitHub/Maui-App/MVVM/ViewModel/UserProfileViewModel.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = InsuranceApp.MVVM.ViewModel.UserProfileViewModel.xaml
 build_metadata.AdditionalFiles.TargetPath = MVVM\ViewModel\UserProfileViewModel.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\ViewModel\UserProfileViewModel.xaml
 
-[C:/Users/emrec/source/repos/InsuranceApp/InsuranceApp/Resources/Styles/Colors.xaml]
+[C:/Users/emrec/OneDrive/Belgeler/GitHub/Maui-App/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = InsuranceApp.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/emrec/source/repos/InsuranceApp/InsuranceApp/Resources/Styles/Styles.xaml]
+[C:/Users/emrec/OneDrive/Belgeler/GitHub/Maui-App/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = InsuranceApp.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

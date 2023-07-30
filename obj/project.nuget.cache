@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/A59Eu7t1IkVthQxzwkMtdo7KOUY7LczPa9p6fHXfL05bNiTJXBxVEJFT0Je6cO6kWOGY3hls8nZn+NsNvVc/g==",
+  "dgSpecHash": "oGlVNRRvTeYWf/AwUS9yrKbTtMtb/bA8V2mxFrRUQvVBsqx2kYKeM7WsXShUpZGvU29TmxqdeZW2FAj0DJVRJw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\emrec\\source\\repos\\InsuranceApp\\InsuranceApp\\InsuranceApp.csproj",
+  "projectFilePath": "C:\\Users\\emrec\\OneDrive\\Belgeler\\GitHub\\Maui-App\\InsuranceApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emrec\\.nuget\\packages\\googlegson\\2.9.0.1\\googlegson.2.9.0.1.nupkg.sha512",
     "C:\\Users\\emrec\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",

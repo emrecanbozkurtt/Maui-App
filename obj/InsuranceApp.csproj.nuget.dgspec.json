@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\emrec\\source\\repos\\InsuranceApp\\InsuranceApp\\InsuranceApp.csproj": {}
+    "C:\\Users\\emrec\\OneDrive\\Belgeler\\GitHub\\Maui-App\\InsuranceApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\emrec\\source\\repos\\InsuranceApp\\InsuranceApp\\InsuranceApp.csproj": {
+    "C:\\Users\\emrec\\OneDrive\\Belgeler\\GitHub\\Maui-App\\InsuranceApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emrec\\source\\repos\\InsuranceApp\\InsuranceApp\\InsuranceApp.csproj",
+        "projectUniqueName": "C:\\Users\\emrec\\OneDrive\\Belgeler\\GitHub\\Maui-App\\InsuranceApp.csproj",
         "projectName": "InsuranceApp",
-        "projectPath": "C:\\Users\\emrec\\source\\repos\\InsuranceApp\\InsuranceApp\\InsuranceApp.csproj",
+        "projectPath": "C:\\Users\\emrec\\OneDrive\\Belgeler\\GitHub\\Maui-App\\InsuranceApp.csproj",
         "packagesPath": "C:\\Users\\emrec\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emrec\\source\\repos\\InsuranceApp\\InsuranceApp\\obj\\",
+        "outputPath": "C:\\Users\\emrec\\OneDrive\\Belgeler\\GitHub\\Maui-App\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
