@@ -4,15 +4,23 @@
              x:Class="InsuranceApp.MVVM.ViewModel.KaskoPage"
              Title="KaskoPage">
 
-   
-    <StackLayout VerticalOptions="FillAndExpand" Padding="20">
-        <Label Text="Profilim" FontAttributes="Bold" FontSize="20"  HorizontalOptions="Start" TextColor="White"/>
-        <Label Text="Poliçe Sahibi: {Binding PolicyOwner}" FontSize="18" />
-        <Label Text="Poliçe İsmi: {Binding PolicyName}" FontSize="18" />
-        <Label Text="Poliçe Numarası: {Binding PolicyNumber}" FontSize="18" />
-        <Label Text="Tanzim Tarihi: {Binding TanzimTarihi}" FontSize="18" />
-        <Label Text="Vade Tarihi: {Binding VadeTarihi}" FontSize="18" />
-        <Label Text="Prim Tutarı: {Binding PrimTutari}" FontSize="18" />
-        <Label Text="Teminatlar: {Binding Teminatlar}" FontSize="18" />
-    </StackLayout>
+
+        <StackLayout VerticalOptions="FillAndExpand" Padding="20">
+            <Label Text="Profilim" FontAttributes="Bold" FontSize="20"  HorizontalOptions="Start" TextColor="White"/>
+            <Label x:Name="LabelPolicyOwner" Text="Poliçe Sahibi: {Binding PolicyOwner}" FontSize="18" />
+            <Label x:Name="LabelPolicyName" Text="Poliçe İsmi: {Binding Path=PolicyName}" FontSize="18" />
+            <Label x:Name="LabelPolicyNumber" Text="Poliçe Numarası: {Binding PolicyNumber}" FontSize="18" />
+            <Label x:Name="LabelTanzimTarihi" Text="Tanzim Tarihi: {Binding TanzimTarihi}" FontSize="18" />
+            <ListView x:Name="ListVadeTarihleri" ItemsSource="{Binding VadeTarihleri}"/>
+            <Label x:Name="LabelPrimTutari" Text="Prim Tutarı: {Binding PrimTutari}" FontSize="18" />
+            <ListView x:Name="ListTeminatlar" ItemsSource="{Binding Teminatlar}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell 
+                        Text="{Binding Name}"/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    
 </ContentPage>

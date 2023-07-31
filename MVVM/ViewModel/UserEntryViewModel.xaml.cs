@@ -20,7 +20,7 @@ public partial class UserEntryViewModel : ContentPage
 
     {
         await Navigation.PushAsync(new UserProfileViewModel());
-       /*
+       
         try
         {
             string Username = txtUsername.Text;
@@ -54,7 +54,7 @@ public partial class UserEntryViewModel : ContentPage
         {
             await DisplayAlert("Hatalý giriþ",ex.Message, "Tamam");
         }
-       */
+       
     }
 
 }

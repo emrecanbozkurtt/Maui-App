@@ -71,6 +71,10 @@
               "version": "[6.0.553, )",
               "autoReferenced": true
             },
+            "Microsoft.VisualStudio.Utilities": {
+              "target": "Package",
+              "version": "[17.6.36389, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
@@ -181,6 +185,10 @@
               "version": "[6.0.553, )",
               "autoReferenced": true
             },
+            "Microsoft.VisualStudio.Utilities": {
+              "target": "Package",
+              "version": "[17.6.36389, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
@@ -271,6 +279,10 @@
               "target": "Package",
               "version": "[6.0.553, )",
               "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Utilities": {
+              "target": "Package",
+              "version": "[17.6.36389, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -363,6 +375,10 @@
               "target": "Package",
               "version": "[6.0.553, )",
               "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Utilities": {
+              "target": "Package",
+              "version": "[17.6.36389, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
